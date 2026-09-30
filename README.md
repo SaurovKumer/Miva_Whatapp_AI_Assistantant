@@ -221,28 +221,6 @@ These are not part of the GitHub source repository.
 - `.wwebjs_cache/` may contain WhatsApp Web cache data.
 - `shutdown.json` stores per-chat shutdown status.
 
-## What to Upload to GitHub
-
-Upload only:
-
-```text
-bot.js
-package.json
-.env.example
-README.md
-```
-
-Do **not** upload:
-
-```text
-.env
-node_modules/
-.wwebjs_auth/
-.wwebjs_cache/
-shutdown.json
-```
-
-If a real API key is ever accidentally published on GitHub, revoke or rotate that key immediately. Deleting the file from the latest commit alone may not remove the secret from Git history.
 
 ## Troubleshooting
 
