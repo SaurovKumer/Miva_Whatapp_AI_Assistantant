@@ -1,0 +1,28 @@
+{
+  "name": "miva-bot",
+  "version": "1.0.0",
+  "description": "Miva: a personal WhatsApp AI assistant powered by Gemini with optional Hermes task routing.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "check": "node --check bot.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "chatbot",
+    "gemini",
+    "ai-assistant",
+    "whatsapp-web.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^2.24.0",
+    "dotenv": "^18.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.7"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
